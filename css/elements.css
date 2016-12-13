@@ -1,0 +1,276 @@
+/*--------------------------------
+Input
+--------------------------------*/
+
+.endless-inputBlock {
+  margin-top: 104px;
+}
+
+.endless-input {
+  display: block;
+  width: 322px;
+  height: 46px;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+  font-family: Josefin Sans;
+  color: #ccc;
+  font-size: 18px;
+  margin: 11px auto;
+  position: relative;
+  z-index: 9;
+  top: -61px;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+
+.endless-input:active, .endless-input:focus, .endless-input:hover {
+  color: white;
+}
+
+.endless-passwordInput {
+  position: relative;
+  top: -61px;
+}
+
+.endless-emailInput {
+  position: relative;
+  top: -2px;
+  margin-top: -6px;
+}
+
+
+/*--------------------------------
+Input Animation
+--------------------------------*/
+
+.input-svg-wrapper {
+  position: relative;
+  top: -117px;
+  margin: 0;
+}
+
+.svg, .input-shape, .input-svg-wrapper, .button-svg-wrapper {
+  pointer-events: none;
+}
+
+.endless-inputBlock, .endless-loginInput, .endless-passwordInput, .endless-confirmButton, .endless-buttonBlock, .endless-emailInput  {
+  overflow: visible !important;
+}
+
+.input-shape {
+  stroke-dasharray: 324 1040;
+  stroke-dashoffset: -367;
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  -webkit-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  -moz-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  -o-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+}
+
+.endless-input:hover ~ .input-svg-wrapper .input-shape, .endless-input:focus ~ .input-svg-wrapper .input-shape {
+  stroke-width: 6px;
+}
+
+.input-shape {
+  animation: strokeAnimation 15s ease-in-out infinite;
+  -moz-animation: strokeAnimation 15s infinite;
+  -webkit-animation: strokeAnimation 15s infinite;
+}
+
+
+
+/*--------------------------------
+Buttons
+--------------------------------*/
+
+.endless-buttonBlock {
+  margin-top: -106px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.endless-button {
+  font-size: 18px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+  padding: 0;
+  margin: 0 0;
+  position: relative;
+  top: -39px;
+}
+
+.endless-signupbutton {
+  width: 196px
+}
+
+.endless-confirmButton {
+    width: 172px;
+}
+
+/*--------------------------------
+Button Animation
+--------------------------------*/
+
+.button-svg-wrapper {
+  position: relative;
+  top: -58px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+.button-shape {
+  stroke-dashoffset: -140;
+  stroke-dasharray: 52 1000;
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: transparent;
+  animation: strokeAnimation 15s ease-in-out;
+  -moz-animation: strokeAnimation 15s infinite;
+  -webkit-animation: strokeAnimation 15s infinite;
+  border-bottom: 5px solid black;
+  -webkit-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  -moz-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  -o-transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  transition: stroke-width .4s, stroke-dashoffset .4s, stroke-dasharray .4s;
+  position: relative;
+  z-index: -1;
+}
+
+.endless-button {
+  position: relative;
+  z-index: 1;
+  padding: 10px 5px;
+}
+
+.endless-button:hover ~ .button-svg-wrapper .button-shape, .endless-button:focus ~ .button-svg-wrapper .button-shape {
+  stroke-width: 8px;
+  stroke-dashoffset: -124;
+  stroke-dasharray: 84 1000;
+}
+
+.backBlock {
+  margin-top: 104px;
+}
+
+
+svg {
+  position: relative;
+  z-index: 10;
+}
+
+
+/*--------------------------------
+Reset button
+--------------------------------*/
+
+.resetBlock {
+  margin-top: -45px;
+}
+
+
+.resetShape {
+  stroke-dashoffset: -105;
+  stroke-dasharray: 37 1000 ;
+}
+
+.endless-button:hover ~ .button-svg-wrapper .resetShape, .endless-button:focus ~ .button-svg-wrapper .resetShape {
+  stroke-width: 8px;
+  stroke-dashoffset: -92;
+  stroke-dasharray: 64 1000;
+}
+
+
+/*--------------------------------
+Register button
+--------------------------------*/
+
+
+
+.registerShape {
+  stroke-dashoffset: -100;
+  stroke-dasharray: 38 1000 ;
+}
+
+.endless-button:hover ~ .button-svg-wrapper .registerShape, .endless-button:focus ~ .button-svg-wrapper .registerShape {
+  stroke-width: 8px;
+  stroke-dashoffset: -92;
+  stroke-dasharray: 53 1000;
+}
+
+
+/*--------------------------------
+Border Bottom Animation
+--------------------------------*/
+
+.fromLeft {
+  width: 145px;
+}
+
+a {
+  display:inline-block;
+  cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #019fb6;
+
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+
+  -webkit-animation: borderAnimation 15s infinite;
+  -moz-animation: borderAnimation 15s infinite;
+
+
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  -moz-transition: -moz-transform 250ms ease-in-out;
+  -o-transition: -o-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+}
+
+a:hover:after {
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+
+}
+a.fromRight:after{ transform-origin:100% 50%; }
+a.fromLeft:after{  transform-origin:  0% 50%; }
+
+
+.fromLeft {
+  width: 130px;
+  overflow: hidden;
+}
+
+.increasedSpacing {
+  letter-spacing: 1.1px;
+}

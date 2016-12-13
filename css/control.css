@@ -1,0 +1,214 @@
+
+
+/*--------------------------------
+Thank you
+--------------------------------*/
+
+.endless-toBeContinued {
+  overflow: visible !important;
+  -webkit-transform: translate(-120vw, -1007px);
+  -moz-transform: translate(-120vw, -1007px);
+  -o-transform: translate(-120vw, -1007px);
+  transform: translate(-120vw, -1007px);
+}
+
+@-webkit-keyframes hideTBCA { 0% { -webkit-transform: translate(0, -1007px);} 25% { -webkit-transform: translate(2px, -1007px);} 100% { -webkit-transform: translate(-120vw, -1007px);}}
+@-moz-keyframes hideTBCA { 0% { -moz-tranform: translate(0, -1007px);} 25% { -moz-tranform: translate(2px, -1007px);} 100% { -moz-tranform: translate(-120vw, -1007px);}}
+@-o-keyframes hideTBCA { 0% { -o-transform: translate(0, -1007px);} 25% { -o-transform: translate(2px, -1007px);} 100% { -o-transform: translate(-120vw, -1007px);}}
+@keyframes hideTBCA { 0% { transform: translate(0, -1007px);} 25% { transform: translate(2px, -1007px);} 100% { transform: translate(-120vw, -1007px);}}
+
+@-webkit-keyframes showTBC { 0% { -webkit-transform: translate(120vw, -1007px);} 75% { -webkit-transform: translate(-2px, -1007px);} 100% { -webkit-transform: translate(0, -1007px);}}
+@-moz-keyframes showTBC { 0% { -moz-transform: translate(120vw, -1007px);} 75% { -moz-transform: translate(-2px, -1007px);} 100% { -moz-transform: translate(0, -1007px);}}
+@-o-keyframes showTBC { 0% { -o-transform: translate(120vw, -1007px);} 75% { -o-transform: translate(-2px, -1007px);} 100% { -o-transform: translate(0, -1007px);}}
+@keyframes showTBC { 0% { transform: translate(120vw, -1007px);} 75% { transform: translate(-2px, -1007px);} 100% { transform: translate(0, -1007px);}}
+
+@-webkit-keyframes hideTBCAtoRightA { 0% { -webkit-transform: translate(0, -1007px);} 25% { -webkit-transform: translate(2px, -1007px);} 100% { -webkit-transform: translate(120vw, -1007px);}}
+@-moz-keyframes hideTBCAtoRightA { 0% { -moz-tranform: translate(0, -1007px);} 25% { -moz-tranform: translate(2px, -1007px);} 100% { -moz-tranform: translate(120vw, -1007px);}}
+@-o-keyframes hideTBCAtoRightA { 0% { -o-transform: translate(0, -1007px);} 25% { -o-transform: translate(2px, -1007px);} 100% { -o-transform: translate(120vw, -1007px);}}
+@keyframes hideTBCAtoRightA { 0% { transform: translate(0, -1007px);} 25% { transform: translate(2px, -1007px);} 100% { transform: translate(120vw, -1007px);}}
+
+.show-toBeContinued {
+  -webkit-animation: showTBC 0.6s forwards ease-in-out;
+  -moz-animation: showTBC 0.6s forwards ease-in-out;
+  -o-animation: showTBC 0.6s forwards ease-in-out;
+  animation: showTBC 0.6s forwards ease-in-out;
+}
+
+.hide-toBeContinued {
+  -webkit-animation: hideTBCA 0.4s forwards ease-in-out;
+  -moz-animation: hideTBCA 0.4s forwards ease-in-out;
+  -o-animation: hideTBCA 0.4s forwards ease-in-out;
+  animation: hideTBCA 0.4s forwards ease-in-out;
+}
+
+.hide-toBeContinuedtoRight {
+  -webkit-animation: hideTBCAtoRightA 0.4s forwards ease-in-out;
+  -moz-animation: hideTBCAtoRightA 0.4s forwards ease-in-out;
+  -o-animation: hideTBCAtoRightA 0.4s forwards ease-in-out;
+  animation: hideTBCAtoRightA 0.4s forwards ease-in-out;
+}
+
+
+
+/*--------------------------------
+Login Form
+--------------------------------*/
+
+@-webkit-keyframes hideLogin { 0% { -webkit-transform: translate(0);} 25% { -webkit-transform: translate(2px);} 100% { -webkit-transform: translate(-120vw);}}
+@-moz-keyframes hideLogin { 0% { -moz-transform: translate(0);} 25% { -moz-transform: translate(2px);} 100% { -moz-transform: translate(-120vw);}}
+@-o-keyframes hideLogin { 0% { -o-transform: translate(0);} 25% { -o-transform: translate(2px);} 100% { -o-transform: translate(-120vw);}}
+@keyframes hideLogin { 0% { transform: translate(0);} 25% { transform: translate(2px);} 100% { transform: translate(-120vw);}}
+
+@-webkit-keyframes showLogin { 0% { -webkit-transform: translate(-120vw);} 75% { -webkit-transform: translate(2px);} 100% { -webkit-transform: translate(0);}}
+@-moz-keyframes showLogin { 0% { transform: -moz-translate(-120vw);} 75% { -moz-transform: translate(2px);} 100% { -moz-transform: translate(0);}}
+@-o-keyframes showLogin { 0% { -o-transform: translate(-120vw);} 75% { -o-transform: translate(2px);} 100% { -o-transform: translate(0);}}
+@keyframes showLogin { 0% { transform: translate(-120vw);} 75% { transform: translate(2px);} 100% { transform: translate(0);}}
+
+@-webkit-keyframes showHedaerFromRight { 0% { -webkit-transform: translate(120vw);} 75% { -webkit-transform: translate(-2px);} 100% { -webkit-transform: translate(0);}}
+@-moz-keyframes showHedaerFromRight { 0% { -moz-transform: translate(120vw);} 75% { -moz-transform: translate(-2px);} 100% { -moz-transform: translate(0);}}
+@-o-keyframes showHedaerFromRight { 0% { -o-transform: translate(120vw);} 75% { -o-transform: translate(-2px);} 100% { -o-transform: translate(0);}}
+@keyframes showHedaerFromRight { 0% { transform: translate(120vw);} 75% { transform: translate(-2px);} 100% { transform: translate(0);}}
+
+
+.hide-loginForm {
+  -webkit-animation: hideLogin 0.4s forwards ease-in-out;
+  -moz-animation: hideLogin 0.4s forwards ease-in-out;
+  -o-animation: hideLogin 0.4s forwards ease-in-out;
+  animation: hideLogin 0.4s forwards ease-in-out;
+}
+
+.show-loginForm {
+  -webkit-animation: showLogin 0.6s forwards ease-in-out;
+  -moz-animation: showLogin 0.6s forwards ease-in-out;
+  -o-animation: showLogin 0.6s forwards ease-in-out;
+  animation: showLogin 0.6s forwards ease-in-out;
+}
+
+.show-HeaderFromRight {
+  -webkit-animation: showHedaerFromRight 0.6s forwards ease-in-out;
+  -moz-animation: showHedaerFromRight 0.6s forwards ease-in-out;
+  -o-animation: showHedaerFromRight 0.6s forwards ease-in-out;
+  animation: showHedaerFromRight 0.6s forwards ease-in-out;
+}
+
+
+/*--------------------------------
+Reset Form
+--------------------------------*/
+
+@-webkit-keyframes opacityStepOne { 0% { opacity: 1} 100% { opacity: 0}}
+@-moz-keyframes opacityStepOne { 0% { opacity: 1} 100% { opacity: 0}}
+@-o-keyframes opacityStepOne { 0% { opacity: 1} 100% { opacity: 0}}
+@keyframes opacityStepOne { 0% { opacity: 1} 100% { opacity: 0}}
+
+@-webkit-keyframes opacityStepTwo { 0% { opacity: 0} 100% { opacity: 1}}
+@-moz-keyframes opacityStepTwo { 0% { opacity: 0} 100% { opacity: 1}}
+@-o-keyframes opacityStepTwo { 0% { opacity: 0} 100% { opacity: 1}}
+@keyframes opacityStepTwo { 0% { opacity: 0} 100% { opacity: 1}}
+
+
+.opacity-StepOne {
+  -webkit-animation: opacityStepOne 0.250s forwards ease-in;
+  -moz-animation: opacityStepOne 0.250s forwards ease-in;
+  -o-animation: opacityStepOne 0.250s forwards ease-in;
+  animation: opacityStepOne 0.250s forwards ease-in;
+}
+
+.opacity-StepTwo {
+  -webkit-animation: opacityStepTwo 0.250s forwards ease-in;
+  -moz-animation: opacityStepTwo 0.250s forwards ease-in;
+  -o-animation: opacityStepTwo 0.250s forwards ease-in;
+  animation: opacityStepTwo 0.250s forwards ease-in;
+}
+
+.endless-resetPassword {
+  -webkit-transform: translate(120vw, -804px);
+  -moz-transform: translate(120vw, -804px);
+  -o-transform: translate(120vw, -804px);
+  transform: translate(120vw, -804px);
+}
+
+@-webkit-keyframes showRP { 0% { -webkit-transform: translate(120vw, -804px);} 75% { -webkit-transform: translate(-2px, -804px);} 100% { -webkit-transform: translate(0, -804px);}}
+@-moz-keyframes showRP { 0% { -moz-transform: translate(120vw, -804px);} 75% { -moz-transform: translate(-2px, -804px);} 100% { -moz-transform: translate(0, -804px);}}
+@-o-keyframes showRP { 0% { -o-transform: translate(120vw, -804px);} 75% { -o-transform: translate(-2px, -804px);} 100% { -o-transform: translate(0, -804px);}}
+@keyframes showRP { 0% { transform: translate(120vw, -804px);} 75% { transform: translate(-2px, -804px);} 100% { transform: translate(0, -804px);}}
+
+@-webkit-keyframes hideRP { 0% { -webkit-transform: translate(0, -804px);} 25% { -webkit-transform: translate(-2px, -804px);} 100% { -webkit-transform: translate(120vw, -804px);}}
+@-moz-keyframes hideRP { 0% { -moz-transform: translate(0, -804px);} 25% { -moz-transform: translate(-2px, -804px);} 100% { -moz-transform: translate(120vw, -804px);}}
+@-o-keyframes hideRP { 0% { -o-transform: translate(0, -804px);} 25% { -o-transform: translate(-2px, -804px);} 100% { -o-transform: translate(120vw, -804px);}}
+@keyframes hideRP { 0% { transform: translate(0, -804px);} 25% { transform: translate(-2px, -804px);} 100% { transform: translate(120vw, -804px);}}
+
+@-webkit-keyframes hideRPtoRight { 0% { -webkit-transform: translate(0, -804px);} 25% { -webkit-transform: translate(2px, -804px);} 100% { -webkit-transform: translate(-120vw, -804px);}}
+@-moz-keyframes hideRPtoRight { 0% { -moz-transform: translate(0, -804px);} 25% { -moz-transform: translate(2px, -804px);} 100% { -moz-transform: translate(-120vw, -804px);}}
+@-o-keyframes hideRPtoRight { 0% { -o-transform: translate(0, -804px);} 25% { -o-transform: translate(2px, -804px);} 100% { -o-transform: translate(-120vw, -804px);}}
+@keyframes hideRPtoRight { 0% { transform: translate(0, -804px);} 25% { transform: translate(2px, -804px);} 100% { transform: translate(-120vw, -804px);}}
+
+.show-resetPassword {
+  -webkit-animation: showRP 0.6s forwards ease-in-out;
+  -moz-animation: showRP 0.6s forwards ease-in-out;
+  -o-animation: showRP 0.6s forwards ease-in-out;
+  animation: showRP 0.6s forwards ease-in-out;
+}
+
+.hide-resetPassword {
+  -webkit-animation: hideRP 0.4s forwards ease-in-out;
+  -moz-animation: hideRP 0.4s forwards ease-in-out;
+  -o-animation: hideRP 0.4s forwards ease-in-out;
+  animation: hideRP 0.4s forwards ease-in-out;
+}
+
+.hide-resetPasswordtoRight {
+  -webkit-animation: hideRPtoRight 0.4s forwards ease-in-out;
+  -moz-animation: hideRPtoRight 0.4s forwards ease-in-out;
+  -o-animation: hideRPtoRight 0.4s forwards ease-in-out;
+  animation: hideRPtoRight 0.4s forwards ease-in-out;
+}
+
+
+
+/*--------------------------------
+New User Form
+--------------------------------*/
+
+@-webkit-keyframes showRegister { 0% { -webkit-transform: translate(120vw, -505px);} 75% { -webkit-transform: translate(-2px, -505px);} 100% { -webkit-transform: translate(0, -505px);}}
+@-moz-keyframes showRegister { 0% { -moz-transform: translate(120vw, -505px);} 75% { -moz-transform: translate(-2px, -505px);} 100% { -moz-transform: translate(0, -505px);}}
+@-o-keyframes showRegister { 0% { -o-transform: translate(120vw, -505px);} 75% { -o-transform: translate(-2px, -505px);} 100% { -o-transform: translate(0, -505px);}}
+@keyframes showRegister { 0% { transform: translate(120vw, -505px);} 75% { transform: translate(-2px, -505px);} 100% { transform: translate(0, -505px);}}
+
+@-webkit-keyframes hideRegister { 0% { -webkit-transform: translate(0, -505px);} 25% { -webkit-transform: translate(2px, -505px);} 100% { -webkit-transform: translate(-120vw, -505px);}}
+@-moz-keyframes hideRegister { 0% { -moz-transform: translate(0, -505px);} 25% { -moz-transform: translate(2px, -505px);} 100% { -moz-transform: translate(-120vw, -505px);}}
+@-o-keyframes hideRegister { 0% { -o-transform: translate(0, -505px);} 25% { -o-transform: translate(2px, -505px);} 100% { -o-transform: translate(-120vw, -505px);}}
+@keyframes hideRegister { 0% { transform: translate(0, -505px);} 25% { transform: translate(2px, -505px);} 100% { transform: translate(-120vw, -505px);}}
+
+@-webkit-keyframes hideRegistertoRight { 0% { -webkit-transform: translate(0, -505px);} 25% { -webkit-transform: translate(2px, -505px);} 100% { -webkit-transform: translate(-120vw, -505px);}}
+@-moz-keyframes hideRegistertoRight { 0% { -moz-transform: translate(0, -505px);} 25% { -moz-transform: translate(2px, -505px);} 100% { -moz-transform: translate(-120vw, -505px);}}
+@-o-keyframes hideRegistertoRight { 0% { -o-transform: translate(0, -505px);} 25% { -o-transform: translate(2px, -505px);} 100% { -o-transform: translate(-120vw, -505px);}}
+@keyframes hideRegistertoRight { 0% { transform: translate(0, -505px);} 25% { transform: translate(2px, -505px);} 100% { transform: translate(-120vw, -505px);}}
+
+.endless-newUser {
+  -webkit-transform: translate(120vw, -505px);
+  -moz-transform: translate(120vw, -505px);
+  -o-transform: translate(120vw, -505px);
+  transform: translate(120vw, -505px);
+}
+
+.show-newUser {
+  -webkit-animation: showRegister 0.6s forwards ease-in-out;
+  -moz-animation: showRegister 0.6s forwards ease-in-out;
+  -o-animation: showRegister 0.6s forwards ease-in-out;
+  animation: showRegister 0.6s forwards ease-in-out;
+}
+
+.hide-newUser {
+  -webkit-animation: hideRegister 0.4s forwards ease-in-out;
+  -moz-animation: hideRegister 0.4s forwards ease-in-out;
+  -o-animation: hideRegister 0.4s forwards ease-in-out;
+  animation: hideRegister 0.4s forwards ease-in-out;
+}
+
+.hide-newUsertoRight {
+  -webkit-animation: hideRegistertoRight 0.4s forwards ease-in-out;
+  -moz-animation: hideRegistertoRight 0.4s forwards ease-in-out;
+  -o-animation: hideRegistertoRight 0.4s forwards ease-in-out;
+  animation: hideRegistertoRight 0.4s forwards ease-in-out;
+}2

@@ -1,0 +1,90 @@
+/*--------------------------------
+Video
+--------------------------------*/
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+  opacity: 0;
+  transition: 1s;
+  background-color: black;
+}
+
+@-webkit-keyframes enableOpacity { 0% { opacity: 0;} 100% {opacity: 1;} }
+@-moz-keyframes enableOpacity { 0% { opacity: 0;} 100% {opacity: 1;} }
+@-o-keyframes enableOpacity { 0% { opacity: 0;} 100% {opacity: 1;} }
+@keyframes enableOpacity { 0% { opacity: 0;} 100% {opacity: 1;} }
+
+@-webkit-keyframes disableOpacity { 0% { opacity: 1;} 100% {opacity: 0;} }
+@-moz-keyframes disableOpacity { 0% { opacity: 1;} 100% {opacity: 0;} }
+@-o-keyframes disableOpacity { 0% { opacity: 1;} 100% {opacity: 0;} }
+@keyframes disableOpacity { 0% { opacity: 1;} 100% {opacity: 0;} }
+
+
+
+.showVideo {
+  -webkit-animation: enableOpacity .7s forwards ease-in;
+  -moz-animation: enableOpacity .7s forwards ease-in;
+  -o-animation: enableOpacity .7s forwards ease-in;
+  animation: enableOpacity .7s forwards ease-in;
+}
+
+.hideVideo {
+  -webkit-animation: disableOpacity 1s forwards ease-out;
+  -o-animation: disableOpacity 1s forwards ease-out;
+  -moz-animation: disableOpacity 1s forwards ease-out;
+  -o-animation: disableOpacity 1s forwards ease-out;
+}
+
+.hideVideo {
+  opacity: 0;
+  transition: 1s;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+.video-filter {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  opacity: 0.60;
+  top: 0;
+  left: 0;
+  z-index: -98;
+}

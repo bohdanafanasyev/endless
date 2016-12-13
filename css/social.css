@@ -1,0 +1,168 @@
+/*--------------------------------
+Social Animations
+--------------------------------*/
+
+@-webkit-keyframes facebookAnimation {
+  0%    {stroke: #4568af}
+  28%   {stroke: #324c80}
+  56%   {stroke: #4568af}
+  72%  {stroke: #2377df}
+  100% {stroke: #4568af}
+}
+
+@-moz-keyframes facebookAnimation {
+  0%    {stroke: #4568af}
+  28%   {stroke: #324c80}
+  56%   {stroke: #4568af}
+  72%  {stroke: #2377df}
+  100% {stroke: #4568af}
+}
+
+@keyframes facebookAnimation {
+  0%    {stroke: #4568af}
+  28%   {stroke: #324c80}
+  56%   {stroke: #4568af}
+  72%  {stroke: #2377df}
+  100% {stroke: #4568af}
+}
+
+
+@-webkit-keyframes pinteresAnimation {
+  0%    {stroke: rgb(163, 1, 24);}
+  28%   {stroke: rgb(119, 0, 17);}
+  56%   {stroke: rgb(163, 1, 24);}
+  72%  {stroke: rgb(236, 54, 54);}
+  100% {stroke: rgb(163, 1, 24);}
+}
+
+@-moz-keyframes pinteresAnimation {
+  0%    {stroke: rgb(163, 1, 24);}
+  28%   {stroke: rgb(119, 0, 17);}
+  56%   {stroke: rgb(163, 1, 24);}
+  72%  {stroke: rgb(236, 54, 54);}
+  100% {stroke: rgb(163, 1, 24);}
+}
+
+@keyframes pinteresAnimation {
+  0%    {stroke: rgb(163, 1, 24);}
+  28%   {stroke: rgb(119, 0, 17);}
+  56%   {stroke: rgb(163, 1, 24);}
+  72%  {stroke: rgb(236, 54, 54);}
+  100% {stroke: rgb(163, 1, 24);}
+}
+
+
+@-webkit-keyframes twitterAnimation {
+  0%    {stroke: #5a9ef2}
+  28%   {stroke: #2377df}
+  56%   {stroke: #5a9ef2}
+  72%  {stroke: #9ec9ff}
+  100% {stroke: #5a9ef2}
+}
+
+@-moz-keyframes twitterAnimation {
+  0%    {stroke: #5a9ef2}
+  28%   {stroke: #2377df}
+  56%   {stroke: #5a9ef2}
+  72%  {stroke: #9ec9ff}
+  100% {stroke: #5a9ef2}
+}
+
+@keyframes twitterAnimation {
+  0%    {stroke: #5a9ef2}
+  28%   {stroke: #2377df}
+  56%   {stroke: #5a9ef2}
+  72%  {stroke: #9ec9ff}
+  100% {stroke: #5a9ef2}
+}
+
+
+@-webkit-keyframes googleAnimation {
+  0%    {stroke: #c23538}
+  28%   {stroke: #a52124}
+  56%   {stroke: #c23538}
+  72%  {stroke: #da3a3e}
+  100% {stroke: #c23538}
+}
+
+@-moz-keyframes googleAnimation {
+  0%    {stroke: #c23538}
+  28%   {stroke: #a52124}
+  56%   {stroke: #c23538}
+  72%  {stroke: #da3a3e}
+  100% {stroke: #c23538}
+}
+
+@keyframes googleAnimation {
+  0%    {stroke: #c23538}
+  28%   {stroke: #a52124}
+  56%   {stroke: #c23538}
+  72%  {stroke: #da3a3e}
+  100% {stroke: #c23538}
+}
+
+/******************************************
+SOCIAL BUTTONS
+******************************************/
+
+/****SVG****/
+
+.social-share {
+  margin-top: 43px;
+}
+
+.svg-social {
+  width: 42px;
+  height: 42px;
+  vertical-align: middle;
+  stroke-width: 1px;
+  fill: rgba(0, 0, 0, .5);
+  display: inline-block;
+  transition: 0.5s;
+}
+
+
+.fb, .pt, .tw, .gp {
+	width: 42px;
+  height: 42px;
+  margin: 0 25px;
+  cursor: pointer;
+}
+
+/****SOCIAL NETWORKS****/
+
+.fb {
+  stroke-width: 1.2px;
+  animation: facebookAnimation 6s infinite;
+  -moz-animation: facebookAnimation 6s infinite;
+  -webkit-animation: facebookAnimation 6s infinite;
+}
+
+.pt {
+  animation: pinteresAnimation 6s infinite;
+  -moz-animation: pinteresAnimation 6s infinite;
+  -webkit-animation: pinteresAnimation 6s infinite;
+}
+
+.tw {
+  animation: twitterAnimation 6s infinite;
+  -moz-animation: twitterAnimation 6s infinite;
+  -webkit-animation: twitterAnimation 6s infinite;
+}
+
+.gp {
+  animation: googleAnimation 6s infinite;
+  -moz-animation: googleAnimation 6s infinite;
+  -webkit-animation: googleAnimation 6s infinite;
+}
+
+/*---Test */
+
+/*.fb {
+  stroke-width: 1px;
+}
+
+svg {
+  fill: transparent;
+  stroke: #dadada;
+}*/
